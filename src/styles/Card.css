@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .card-author {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 5px 0;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #444;
+  }
+  

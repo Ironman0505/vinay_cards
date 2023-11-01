@@ -1,0 +1,11 @@
+.App .filter{
+
+    display: flex;
+    justify-content:center;
+    margin-top: 0.2%;
+}
+
+.App .Cards{
+    display: flex;
+    justify-content: center;
+}
