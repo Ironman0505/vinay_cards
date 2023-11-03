@@ -1,11 +1,80 @@
-.App .filter{
 
+body{
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+
+
+.App .filter{
     display: flex;
     justify-content:center;
+    align-items: center;
     margin-top: 0.2%;
+
 }
 
 .App .Cards{
     display: flex;
     justify-content: center;
 }
+
+
+.fx:hover{
+    background-color: #c9d6ff;
+    box-shadow: 5px 5px 5px wheat;
+    transform: scale(1.1);
+}
+
+.App .cardgroup{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 15px;
+
+}
+
+  .pagination {
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+  }
+
+  .pagination:hover{
+    cursor: pointer;
+  }
+  
+  .pagination li {
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid rgb(46, 17, 46); /* Add border */
+    padding: 5px 10px; /* Add padding for a block effect */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .pagination li.active {
+    font-weight: bold;
+    background-color: rgb(92, 185, 162); 
+    color: rgb(147, 144, 144); 
+  }
+  
+
+  .filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .filter select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+  }  
